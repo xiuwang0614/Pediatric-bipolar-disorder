@@ -1,0 +1,33 @@
+% load('/media/user/xiuwang/3DCM0517/COMBAT_H/GCM_PHC.mat');
+for i =1: 40
+    
+    GCM_i = GCM{i};
+    X0= GCM_i.Y.X0;
+
+    X0 = X0(:);
+    dat(:,i) = X0;
+end
+
+batch = _DM(3,:);
+age = HC_DM(1,:)'; % Continuous variable
+sex = HC_DM(2,:)'; % Categorical variable (1 for females, 2 for males)
+comorbidity = 
+sex = dummyvar(sex);
+mod = [age sex(:,2)];
+data_harmonized = combat(dat, batch, mod, 1);
+% To use ComBat without adjusting for biological variables, simply set
+mod=[];
+
+for i = 1:40
+    X0 = data_harmonized(:,i); 
+    
+    GCM{i}.Y.X0 = reshape(X0, size(GCM{i}.Y.X0));
+   
+end
+
+
+% disp(GCM);
+
+
+
+
