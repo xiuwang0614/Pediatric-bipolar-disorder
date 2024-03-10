@@ -7,3 +7,5 @@ and their Volume of Interest (VOI) files, which provide the timeseries.
 This file crates each subject's DCM.
 # 3. `step2_ass.m`
 This file eatimates the GCM.
+# 4.  `ComBat harmonization`
+This folder provides the code to correct the site’s effects on the indies of DCMs after specifying DCM.
