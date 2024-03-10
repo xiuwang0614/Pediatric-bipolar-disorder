@@ -1,5 +1,5 @@
 # 1. `GCM` 
-This folder is the data used in the following analysis, after preprocessing.  
+This folder is the example data used in the following analysis, after preprocessing.  
 For each subject well need their SPM.mat file (which provides the experimental timing)   
 and their Volume of Interest (VOI) files, which provide the timeseries.   
 ( `please note, each folder contains some useless files`)
