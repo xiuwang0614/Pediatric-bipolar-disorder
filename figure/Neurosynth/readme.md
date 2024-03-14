@@ -25,4 +25,4 @@ wc = WordCloud(
         height = 400)
 ```
 5. `remove_repeat_word.py` is used to remove the phrases contained repeat words.
-6. `Brian_region.node` is the input for the BrainNet view.
+6. `Brian_regions.node` is the input for the BrainNet view.
