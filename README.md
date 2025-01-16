@@ -1,5 +1,5 @@
-# title
-Paper currently in preparation.
+# [Causal mechanisms of quadruple networks in pediatric bipolar disorder](https://www.cambridge.org/core/journals/psychological-medicine/article/causal-mechanisms-of-quadruple-networks-in-pediatric-bipolar-disorder/E8BDAAA6E8136BF3BF8014D3B4D5F727)
+
 ## Other useful references
 `very useful tutorial !!` [The data and step-by-step guide](https://github.com/pzeidman/dcm-peb-example/raw/master/docs/DCM-PEB-Tutorial.pdf)    
 
